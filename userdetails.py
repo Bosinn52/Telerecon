@@ -8,7 +8,7 @@ from telethon.tl.types import UserStatusOffline
 
 from colorama import init, Fore, Style
 
-from details import apiID, apiHash, number
+from details import apiID, apiHash, number # type: ignore
 
 # Initialize colorama for colored console output
 
